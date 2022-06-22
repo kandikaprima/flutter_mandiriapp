@@ -32,7 +32,10 @@ class _InputKunjunganPageState extends State<InputKunjunganPage> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: blueMain,
         child: widget.isEdit
-            ? Icon(Icons.edit)
+            ? Icon(
+                Icons.save,
+                color: yellowMain,
+              )
             : Text(
                 "+",
                 style: TextStyle(
