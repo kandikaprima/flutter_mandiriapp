@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => LoginPage(),
         'main-page': (context) => MainPage(),
         'input-kunjungan-page': (context) => InputKunjunganPage(),
-        'input-cabang-page': (context) => InputCabangPage(),
+        'input-nasabah-page': (context) => InputNasabahPage(),
       }),
     );
   }
