@@ -118,7 +118,7 @@ class _InputKunjunganPageState extends State<InputKunjunganPage> {
                             color: Colors.black,
                           ),
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             image: AssetImage("assets/DetailFoto.png"),
                           ),
                         ),
@@ -127,7 +127,7 @@ class _InputKunjunganPageState extends State<InputKunjunganPage> {
                         width: 77,
                         height: 77,
                         margin: EdgeInsets.only(top: 7),
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage("assets/add_picture.png"),
                           ),
