@@ -56,8 +56,8 @@ class ProdukPage extends StatelessWidget {
               itemCount: 2,
               itemBuilder: ((context, index) {
                 return CustomCardSektor(
-                  title: "Koperasi Samarinda",
-                  kunjungan: "Luas Lahan 12, 5 Ha",
+                  title: "Livin",
+                  kunjungan: "Total Nasabah: 2",
                   onTap: () {},
                   haveImage: false,
                 );

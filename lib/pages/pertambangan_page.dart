@@ -7,8 +7,8 @@ import 'package:flutter_mandiriapp/widgets/custom_card_sektor.dart';
 
 import '../constans.dart';
 
-class KunjunganPage extends StatelessWidget {
-  const KunjunganPage({Key? key, required this.title}) : super(key: key);
+class PertambanganPage extends StatelessWidget {
+  const PertambanganPage({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
@@ -72,7 +72,7 @@ class KunjunganPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+                const Text(
                   "18",
                   style: TextStyle(
                     fontSize: 100,
@@ -124,7 +124,7 @@ class KunjunganPage extends StatelessWidget {
             ),
           ),
           onPressed: () {
-            Navigator.pushNamed(context, "input-cabang-page");
+            Navigator.pushNamed(context, "input-nasabah-page");
           },
         ),
         body: TabBarView(
