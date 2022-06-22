@@ -22,6 +22,17 @@ class KelapaDetail extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: blueMain,
+        child: Text(
+          "+",
+          style: TextStyle(
+            fontSize: 30,
+            color: yellowMain,
+          ),
+        ),
+        onPressed: () {},
+      ),
       body: Padding(
         padding: const EdgeInsets.all(12),
         child: ListView(
