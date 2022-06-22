@@ -49,7 +49,7 @@ class InputNasabahPage extends StatelessWidget {
                   width: 77,
                   height: 77,
                   margin: EdgeInsets.only(top: 7),
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage("assets/add_picture.png"),
                     ),
