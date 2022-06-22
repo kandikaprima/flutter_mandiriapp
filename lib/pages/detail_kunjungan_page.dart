@@ -57,7 +57,7 @@ class DetailKunjunganPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "16",
+                  "2",
                   style: TextStyle(
                     fontSize: 100,
                     fontWeight: FontWeight.w600,
@@ -69,15 +69,28 @@ class DetailKunjunganPage extends StatelessWidget {
                   color: blueMain,
                   alignment: Alignment.center,
                   child: Text(
-                    "Total Kunjungan",
+                    "Livin",
                     style: TextStyle(
                       fontSize: 20,
                       color: yellowMain,
                     ),
                   ),
                 ),
+              ],
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 160,
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              border: Border.all(width: 1, color: blueMain),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
                 const Text(
-                  "4",
+                  "0",
                   style: TextStyle(
                     fontSize: 100,
                     fontWeight: FontWeight.w600,
@@ -89,15 +102,28 @@ class DetailKunjunganPage extends StatelessWidget {
                   color: blueMain,
                   alignment: Alignment.center,
                   child: Text(
-                    "Total Nasabah",
+                    "Aksa",
                     style: TextStyle(
                       fontSize: 20,
                       color: yellowMain,
                     ),
                   ),
                 ),
+              ],
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 160,
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              border: Border.all(width: 1, color: blueMain),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
                 const Text(
-                  "4",
+                  "2",
                   style: TextStyle(
                     fontSize: 100,
                     fontWeight: FontWeight.w600,
@@ -109,7 +135,7 @@ class DetailKunjunganPage extends StatelessWidget {
                   color: blueMain,
                   alignment: Alignment.center,
                   child: Text(
-                    "Total Produk Holding",
+                    "Tabungan",
                     style: TextStyle(
                       fontSize: 20,
                       color: yellowMain,
@@ -148,7 +174,7 @@ class DetailKunjunganPage extends StatelessWidget {
             ),
           ),
           onPressed: () {
-            Navigator.pushNamed(context, "input-nasabah-page");
+            Navigator.pushNamed(context, "input-kunjungan-page");
           },
         ),
         body: TabBarView(
