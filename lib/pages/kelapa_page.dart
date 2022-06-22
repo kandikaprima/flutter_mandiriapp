@@ -23,6 +23,17 @@ class KelapaPage extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: blueMain,
+        child: Text(
+          "+",
+          style: TextStyle(
+            fontSize: 30,
+            color: yellowMain,
+          ),
+        ),
+        onPressed: () {},
+      ),
       body: BlocBuilder<KelapaCubit, KelapaState>(
         builder: (context, state) {
           if (state is KelapaLoading) {
