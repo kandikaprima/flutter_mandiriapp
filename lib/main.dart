@@ -30,10 +30,10 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(routes: {
-        '/': (context) => LoginPage(),
-        'main-page': (context) => MainPage(),
-        'input-kunjungan-page': (context) => InputKunjunganPage(),
-        'input-nasabah-page': (context) => InputNasabahPage(),
+        '/': (context) => const LoginPage(),
+        'main-page': (context) => const MainPage(),
+        'input-kunjungan-page': (context) => const InputKunjunganPage(),
+        'input-nasabah-page': (context) => const InputNasabahPage(),
       }),
     );
   }
