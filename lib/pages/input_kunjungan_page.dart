@@ -61,11 +61,6 @@ class _InputKunjunganPageState extends State<InputKunjunganPage> {
                   hint: "",
                   controller: textEditingController,
                 ),
-                CustomTextField(
-                  title: "P.I.C Perusahaan",
-                  hint: "",
-                  controller: textEditingController,
-                ),
                 DropdownButton<String>(
                   value: dropdownValue,
                   icon: const Icon(Icons.arrow_downward),
