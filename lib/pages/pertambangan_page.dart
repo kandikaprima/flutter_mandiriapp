@@ -73,7 +73,7 @@ class PertambanganPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "18",
+                  "16",
                   style: TextStyle(
                     fontSize: 100,
                     fontWeight: FontWeight.w600,
@@ -86,6 +86,72 @@ class PertambanganPage extends StatelessWidget {
                   alignment: Alignment.center,
                   child: Text(
                     "Total Kunjungan",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: yellowMain,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 160,
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              border: Border.all(width: 1, color: blueMain),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text(
+                  "4",
+                  style: TextStyle(
+                    fontSize: 100,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 40,
+                  color: blueMain,
+                  alignment: Alignment.center,
+                  child: Text(
+                    "Total Nasabah",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: yellowMain,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 160,
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              border: Border.all(width: 1, color: blueMain),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text(
+                  "4",
+                  style: TextStyle(
+                    fontSize: 100,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 40,
+                  color: blueMain,
+                  alignment: Alignment.center,
+                  child: Text(
+                    "Total Produk Holding",
                     style: TextStyle(
                       fontSize: 20,
                       color: yellowMain,
