@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_mandiriapp/constans.dart';
 import 'package:flutter_mandiriapp/cubit/kelapa_cubit.dart';
-import 'package:flutter_mandiriapp/pages/kelapa_detail.dart';
 import 'package:flutter_mandiriapp/widgets/column_builder.dart';
 import 'package:flutter_mandiriapp/widgets/custom_card_sektor.dart';
 
