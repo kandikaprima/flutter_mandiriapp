@@ -3,8 +3,8 @@ import 'package:flutter_mandiriapp/constans.dart';
 import 'package:flutter_mandiriapp/widgets/custom_date_picker.dart';
 import 'package:flutter_mandiriapp/widgets/custom_text_field.dart';
 
-class InputCabangPage extends StatelessWidget {
-  const InputCabangPage({Key? key}) : super(key: key);
+class InputNasabahPage extends StatelessWidget {
+  const InputNasabahPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class InputCabangPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: blueMain,
         title: Text(
-          "Input Cabang",
+          "Input Nasabah",
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w700,
@@ -40,12 +40,12 @@ class InputCabangPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomTextField(
-                  title: "Nama Perusahaan",
+                  title: "Nama Nasabah",
                   hint: "",
                   controller: textEditingController,
                 ),
                 SizedBox(height: 10),
-                Text("Foto Kunjungan"),
+                Text("Foto Nasabah"),
                 Container(
                   width: 77,
                   height: 77,
