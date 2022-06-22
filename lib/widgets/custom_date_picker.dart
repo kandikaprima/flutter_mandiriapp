@@ -74,7 +74,7 @@ class _CustomDatePickerState extends State<CustomDatePicker> {
                 width: 40,
                 height: 40,
                 margin: EdgeInsets.symmetric(horizontal: 20),
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage("assets/calendar.png"),
                   ),
