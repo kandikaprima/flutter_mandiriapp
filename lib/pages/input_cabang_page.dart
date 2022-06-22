@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mandiriapp/constans.dart';
-import 'package:flutter_mandiriapp/widgets/custom_date_picker.dart';
 import 'package:flutter_mandiriapp/widgets/custom_text_field.dart';
 
 class InputNasabahPage extends StatelessWidget {
@@ -44,13 +43,13 @@ class InputNasabahPage extends StatelessWidget {
                   hint: "",
                   controller: textEditingController,
                 ),
-                SizedBox(height: 10),
-                Text("Foto Nasabah"),
+                const SizedBox(height: 10),
+                const Text("Foto Nasabah"),
                 Container(
                   width: 77,
                   height: 77,
-                  margin: EdgeInsets.only(top: 7),
-                  decoration: BoxDecoration(
+                  margin: const EdgeInsets.only(top: 7),
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage("assets/add_picture.png"),
                     ),
