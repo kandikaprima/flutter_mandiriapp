@@ -7,7 +7,7 @@ import 'package:flutter_mandiriapp/models/supplier_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  String endpoint = "https://44e7-182-1-218-202.ap.ngrok.io/api/";
+  String endpoint = "https://6139-182-1-196-222.ap.ngrok.io/api/";
 
   Future<AdminModel> login(String nip, String password) async {
     try {
