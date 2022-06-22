@@ -30,7 +30,7 @@ class DetailCabangPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: ((context) => InputKunjunganPage(
+                        builder: ((context) => const InputKunjunganPage(
                               isEdit: true,
                             )),
                       ),
@@ -67,11 +67,11 @@ class DetailCabangPage extends StatelessWidget {
         case 0:
           return kunjunganSection();
         case 1:
-          return ProductPage();
+          return const ProductPage();
         case 2:
-          return SupplierPage();
+          return const SupplierPage();
         case 3:
-          return BuyerPage();
+          return const BuyerPage();
         default:
           return kunjunganSection();
       }
@@ -126,7 +126,7 @@ class DetailCabangPage extends StatelessWidget {
         ),
       ),
       floatingActionButton: Container(
-        margin: EdgeInsets.only(bottom: 70),
+        margin: const EdgeInsets.only(bottom: 70),
         child: FloatingActionButton(
           backgroundColor: blueMain,
           child: Text(
